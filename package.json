@@ -1,0 +1,16 @@
+{
+  "name": "cypress-api-test",
+  "version": "1.0.0",
+  "description": "Test API using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.1.5",
+    "md5": "^2.2.1"
+  }
+}
